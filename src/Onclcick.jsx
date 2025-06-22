@@ -4,9 +4,7 @@ const Sum=(a,b)=>{
 const Fruit=()=>{
     return(
         <div>
-            <button onClick={()=>{
-                alert("High alert");
-            }}>Alert Button</button>
+            <button onClick={()=>{alert("High alert"); }}>Alert Button</button><br /><br />
             <button onClick={()=>Sum(10,12)}>Sum Button</button>
         </div>
     )
