@@ -10,6 +10,8 @@ import Defa from './defaultprops'
 import Child from './Childrenprops'
 import Input from './Inputvalue'
 import Control from './controllcomponent'
+import Check from './checkbox'
+import Drop from './dropdownandcheckbon'
 function App() {
  return( 
  <div>
@@ -43,6 +45,12 @@ function App() {
   <br />
   <h1>Control Component</h1>
   <Control/>
+  <br />
+  <h1>Check Box</h1>
+  <Check/>
+  <br />
+  <h1>Dropdown</h1>
+  <Drop/>
 </div>)
 }
 
