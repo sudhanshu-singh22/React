@@ -1,6 +1,6 @@
 function Child({children}){
    return(
-    <div>
+    <div style={{color:"green" , border:"2px solid red" , width:"300px"}}>
         {children}
     </div>
    )

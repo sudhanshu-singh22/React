@@ -8,6 +8,8 @@ import Multiple from './Multiplecasetoggle'
 import Student from './Propsinreact'
 import Defa from './defaultprops'
 import Child from './Childrenprops'
+import Input from './Inputvalue'
+import Control from './controllcomponent'
 function App() {
  return( 
  <div>
@@ -33,8 +35,14 @@ function App() {
   <br />
   <h1>Using Children Props</h1>
   <Child>
-    <h1>Hello,Everyone</h1>
+    <h1>Hello, Everyone</h1>
   </Child>
+  <br />
+  <h1>Input Real Time Change </h1>
+  <Input/>
+  <br />
+  <h1>Control Component</h1>
+  <Control/>
 </div>)
 }
 
