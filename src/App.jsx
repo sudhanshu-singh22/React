@@ -12,6 +12,7 @@ import Input from './Inputvalue'
 import Control from './controllcomponent'
 import Check from './checkbox'
 import Drop from './dropdownandcheckbon'
+import Loopma from './loopinjsxwithmapfunction'
 function App() {
  return( 
  <div>
@@ -51,6 +52,9 @@ function App() {
   <br />
   <h1>Dropdown</h1>
   <Drop/>
+  <br />
+  <h1>Loop in jsx with map function</h1>
+  <Loopma/>
 </div>)
 }
 
