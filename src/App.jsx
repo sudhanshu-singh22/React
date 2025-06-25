@@ -16,6 +16,7 @@ import Loopma from './loopinjsxwithmapfunction'
 import Roopma from './reusecompo'
 import Nested from './Nestedloop'
 import Hook from './usingUSEEFFECThook'
+import Inlinec from './inlinecss'
 function App() {
  return( 
  <div>
@@ -67,6 +68,9 @@ function App() {
   <br />
   <h1>Using USe effect Hook</h1>
   <Hook/>
+  <br />
+  <h1>Inline Css</h1>
+  <Inlinec/>
 </div>)
 }
 
