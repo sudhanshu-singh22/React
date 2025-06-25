@@ -17,6 +17,7 @@ import Roopma from './reusecompo'
 import Nested from './Nestedloop'
 import Hook from './usingUSEEFFECThook'
 import Inlinec from './inlinecss'
+import Dynamic from './DynamicInliecss'
 function App() {
  return( 
  <div>
@@ -71,6 +72,9 @@ function App() {
   <br />
   <h1>Inline Css</h1>
   <Inlinec/>
+  <br />
+  <h1>Dynamic Inline Css</h1>
+  <Dynamic/>
 </div>)
 }
 
