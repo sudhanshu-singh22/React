@@ -13,6 +13,8 @@ import Control from './controllcomponent'
 import Check from './checkbox'
 import Drop from './dropdownandcheckbon'
 import Loopma from './loopinjsxwithmapfunction'
+import Roopma from './reusecompo'
+import Nested from './Nestedloop'
 function App() {
  return( 
  <div>
@@ -55,6 +57,12 @@ function App() {
   <br />
   <h1>Loop in jsx with map function</h1>
   <Loopma/>
+  <br />
+  <h1>Reuse component in loop</h1>
+  <Roopma/>
+  <hr />
+  <h1>Nested Loop </h1>
+  <Nested/>
 </div>)
 }
 
