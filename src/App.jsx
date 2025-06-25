@@ -15,6 +15,7 @@ import Drop from './dropdownandcheckbon'
 import Loopma from './loopinjsxwithmapfunction'
 import Roopma from './reusecompo'
 import Nested from './Nestedloop'
+import Hook from './usingUSEEFFECThook'
 function App() {
  return( 
  <div>
@@ -63,6 +64,9 @@ function App() {
   <hr />
   <h1>Nested Loop </h1>
   <Nested/>
+  <br />
+  <h1>Using USe effect Hook</h1>
+  <Hook/>
 </div>)
 }
 
