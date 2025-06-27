@@ -18,6 +18,8 @@ import Nested from './Nestedloop'
 import Hook from './usingUSEEFFECThook'
 import Inlinec from './inlinecss'
 import Dynamic from './DynamicInliecss'
+import External from './Externalcss'
+import Refer from './useRefhook'
 function App() {
  return( 
  <div>
@@ -75,6 +77,12 @@ function App() {
   <br />
   <h1>Dynamic Inline Css</h1>
   <Dynamic/>
+  <br />
+  <h1>External Css</h1>
+  <External/>
+  <br />
+  <h1>Use Ref Hook use</h1>
+  <Refer/>
 </div>)
 }
 
