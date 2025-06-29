@@ -20,6 +20,7 @@ import Inlinec from './inlinecss'
 import Dynamic from './DynamicInliecss'
 import External from './Externalcss'
 import Refer from './useRefhook'
+import Uncontrol from './uncontrolledcomponent'
 function App() {
  return( 
  <div>
@@ -83,6 +84,9 @@ function App() {
   <br />
   <h1>Use Ref Hook use</h1>
   <Refer/>
+  <br />
+  <h1>Uncontrolled Component</h1>
+  <Uncontrol/>
 </div>)
 }
 
