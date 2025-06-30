@@ -21,6 +21,7 @@ import Dynamic from './DynamicInliecss'
 import External from './Externalcss'
 import Refer from './useRefhook'
 import Uncontrol from './uncontrolledcomponent'
+import Trans from './useTransition'
 function App() {
  return( 
  <div>
@@ -87,6 +88,9 @@ function App() {
   <br />
   <h1>Uncontrolled Component</h1>
   <Uncontrol/>
+  <br />
+  <h1>useTransitionHook</h1>
+  <Trans/>
 </div>)
 }
 
