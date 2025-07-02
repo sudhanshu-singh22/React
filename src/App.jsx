@@ -26,6 +26,7 @@ import Derive from './DerivedState'
 import { useState } from 'react'
 import Leftup from './leftup'
 import Leftup1 from './leftup1'
+import UpdateObj from './updateObject'
 function App() {
    const [user,setuser]=useState('');
  return( 
@@ -119,6 +120,9 @@ function App() {
  
   <Leftup setuser={setuser}/>
   <Leftup1 user={user}/>
+  <br /><hr />
+  <h1>Update Object</h1>
+  <UpdateObj/>
 </div>)
 }
 
