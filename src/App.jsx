@@ -27,6 +27,8 @@ import { useState } from 'react'
 import Leftup from './leftup'
 import Leftup1 from './leftup1'
 import UpdateObj from './updateObject'
+import Actionh from './useActionHook'
+import College from './College'
 function App() {
    const [user,setuser]=useState('');
  return( 
@@ -123,6 +125,11 @@ function App() {
   <br /><hr />
   <h1>Update Object</h1>
   <UpdateObj/>
+  <br /><hr />
+  <h1>useActionHook</h1>
+  <Actionh/>
+  <br /><hr />
+  <College/>
 </div>)
 }
 
